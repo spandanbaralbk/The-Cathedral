@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Eternal Cathedral</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id ="overlay">
+            <h1>The Eternal Cathedral</h1>
+            <p>Each moment, a different house of God</p>
+            <div class="seed-display" id="seed-display"></div>
+            <p style="margin-top: 2.5rem; font-size: 0.75rem;letter-spacing: 0.3em; color:#5a4f45;">
+                - touch to enter -
+            </p>
+        </div>
+        <div id="vignette"></div>
+        <div id="canvas-container"></div>
+        <div id="info"></div>
+        <div id="hud">
+            <button onclick="regenrate()">New Cathedral</button>
+            <button onclick="toggleSound()" id="sound-btn">Sound: On</button>
+            <button onclick="toggleWalk()" id="walk-btn">Auto-Walk: On</button>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js">
+
+        </script>
+        <script src="main.js"></script>
+    </body>
+</html>
