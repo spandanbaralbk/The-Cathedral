@@ -1,2 +1,2 @@
 # The-Cathedral
-A website that generates a unique, procedurally generated cathedral interior every time you load it—each pillar, stained glass window, and altar is shaped by the current system time and your browser's touch/pressure data if available, rendered with three.js and web audio that hums a faint chord based on the page's color palette.
+This is website where there is a randomized cathedral generation, There is a faint sound using Web audio api, There still are bugs like the new cathderal button doesnt work, there isnt any walking controls you have to use auto walk for that function. 
